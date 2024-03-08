@@ -10,7 +10,7 @@
 }
 body {
   font-family: var(--font-poppins);
-  background-color: var(--color-light-grey);
+  background-color: var(--color-off-white);
   margin: 0;
 }
 * {
@@ -25,7 +25,10 @@ main {
   border-radius: 20px;
   padding-block: 45px;
   padding-inline: 24px;
+  border-bottom-right-radius: 110px;
+
   @media screen and (min-width: 910px) {
+    border-bottom-right-radius: 195px;
     width: 80%;
     max-width: 839px;
     padding-block: 50px;
